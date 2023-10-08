@@ -72,6 +72,10 @@ body {
 .details-container {
     width: 50%;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: space-between;
 }
 
 .details-container .montserrat {
@@ -86,8 +90,8 @@ body {
 
 .details-container .name {
     font-family: var(--ff-accent);
-    font-size: 1.5rem;
-    margin-right: 3.9rem;
+    font-size: 2rem;
+    margin-right: 3rem;
     line-height: 1.1;
 }
 
@@ -176,5 +180,9 @@ body {
 
     .btn {
         width: 100%;
+    }
+
+    .price-container {
+        align-self: flex-start;
     }
 }
